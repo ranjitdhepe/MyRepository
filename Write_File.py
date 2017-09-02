@@ -10,6 +10,5 @@ while i< 100 :
     f.write('Sanku Sinha') #Sanku Sinha
     f.write(',,,,,,,,,')
     f.close()
-    print(i)
+    #print(i)
     i += 1
-    print("increased i", i)
