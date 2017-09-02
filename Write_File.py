@@ -1,7 +1,7 @@
 import datetime
 import random
 i=0
-while i< 10 :
+while i< 100 :
     f = open('C:\Python33\helloworld.csv', 'a')
     f.write('\n202284221,4.0.0,SDPICK,REQU_USERCONTEXT,162810,1,')
     f.write('{:%Y%m%d}'.format(datetime.datetime.now())) #20170504
